@@ -1,0 +1,81 @@
+body {
+  padding-left: 2.7%;
+  font-family: Arial, sans-serif;
+  /* Set padding for the main content area equal to the width of the navbar */
+}
+
+.navbar {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 2.7%;
+  height: 100%;
+  background-color: #34444A;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: all 0.2s;
+
+}
+
+.navbar-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: white;
+  background-color: #34444A;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.navbar-links {
+  display: none;
+}
+
+.navbar-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.navbar-links li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar.hidden {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #34444A;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: all 0.2s;
+}
+
+
+.navbar-links.hidden {
+  display: block;
+  height: 100%;
+}
+
+.navbar-links .subsection {
+  padding-left: 35px;
+  /* Indent subsections by 20px */
+}
+
+/* Styles for subsubsections */
+.navbar-links .subsubsection {
+  padding-left: 55px;
+  /* Indent subsubsections by 40px */
+}
