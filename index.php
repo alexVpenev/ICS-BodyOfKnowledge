@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Fontys Cyber Security</title>
   <?php
   include("src/components/navigation-index.php");
   ?>
@@ -18,8 +18,8 @@
         height: 100%;
         background-color: #34444A;
         background-size: center;
-        background-position: center; */
-      /* background-image: url(kali-background.png); */
+        background-position: center;
+      background-image: url(kali-background.png); */
       height: 100%;
       margin: 0;
 
@@ -49,6 +49,7 @@
       padding-left: 20%;
       margin-top: 200px;
     }
+
     .secondaryTitle {
       text-align: right;
       padding-right: 10%;
@@ -125,7 +126,7 @@
 
     <div class="home-contents">
 
-      <div class="profile" >
+      <div class="profile">
         <a class="username">alexVpenev</a>
         <img class="profile-photo" src="src/assets/gif.gif" alt="Profile photo of Alex Vpenev">
 

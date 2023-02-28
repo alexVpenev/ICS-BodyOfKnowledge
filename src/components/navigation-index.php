@@ -18,8 +18,14 @@
       <li><a href="src/pages/introduction.php">Introduction</a></li>
       
       <li><a href="../pages/versionHistory.php">Version Control</a></li>
-      <li><a href="#">Ethical Hacker</a></li>
-      <li class="subsection"><a href="src/pages/what-is-ethical-hacking.php">What is an Ethical Hacker, and how to become one? </a></li>
+      <li><a href="#">Introduction into IT Security</a></li>
+      <li class="subsection"><a href="src/pages/basic-hacking-and-pentesting-process.php">Basic Hacking and Pentesting Process</a></li>
+      <li class="subsection"><a href="src/pages/threat-and-risk-analysis-pt1-cia.php">Threat & Risk Analysis Part 1</a></li>
+      <li><a href="#">Web Application Attack and Defense</a></li>
+      <li class="subsection"><a href="#">Install Vulnerable Web App</a></li>
+      <li class="subsection"><a href="#">Footprinting, Reconnaissance and Social Engineering</a></li>
+      <li><a href="#">Web Site Attack and Defense</a></li>
+      <li class="subsection"><a href="#">Path Traversal, (remote) File inclusion and Command Injection</a></li>
     </ul>
   </nav>
 </div>
