@@ -47,7 +47,7 @@ body {
 
 .navbar-links li a {
   display: block;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -69,13 +69,21 @@ body {
   height: 100%;
 }
 
-.navbar-links .subsection {
+.navbar-links .common {
+  background-color: #b7b7b8;
+
+}
+
+.navbar-links .section1 {
+  background-color: #f86762;
+}
+.navbar-links .subsection1 {
   padding-left: 35px;
-  /* Indent subsections by 20px */
+  background-color: #d99694;
 }
 
 /* Styles for subsubsections */
-.navbar-links .subsubsection {
+.navbar-links .subsubsection1 {
   padding-left: 55px;
-  /* Indent subsubsections by 40px */
+  background-color: #e6b9b8;
 }

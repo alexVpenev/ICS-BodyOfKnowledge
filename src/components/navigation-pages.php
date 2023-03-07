@@ -14,17 +14,23 @@
   <button class="navbar-toggle" onclick="toggleNav()">☰</button>
   <nav class="navbar-links">
     <ul>
-      <li><a href="../../index.php">Home</a></li>
-      <li><a href="../pages/introduction.php">Introduction</a></li>
-      <li><a href="../pages/versionHistory.php">Version Control</a></li>
-      <li><a href="#">Introduction into IT Security</a></li>
-      <li class="subsection"><a href="../pages/basic-hacking-and-pentesting-process.php">Basic Hacking and Pentesting Process</a></li>
-      <li class="subsection"><a href="../pages/threat-and-risk-analysis-pt1-cia.php">Threat & Risk Analysis Part 1</a></li>
-      <li><a href="#">Web Application Attack and Defense</a></li>
-      <li class="subsection"><a href="#">Install Vulnerable Web App</a></li>
-      <li class="subsection"><a href="#">Footprinting, Reconnaissance and Social Engineering</a></li>
-      <li><a href="#">Web Site Attack and Defense</a></li>
-      <li class="subsection"><a href="#">Path Traversal, (remote) File inclusion and Command Injection</a></li>
+      <li class="common"><a href="../../index.php">Home</a></li>
+      <li class="common"><a href="../pages/introduction.php">Introduction</a></li>
+      <li class="common"><a href="../pages/versionHistory.php">Version Control</a></li>
+
+      <li class="section1"><a href="#">Web Application Security</a></li>
+
+      <li class="subsection1"><a href="#">Introduction into IT Security</a></li>
+      <li class="subsubsection1"><a href="../pages/basic-hacking-and-pentesting-process.php">Basic Hacking and Pentesting Process</a></li>
+      <li class="subsubsection1"><a href="../pages/threat-and-risk-analysis-pt1-cia.php">Threat & Risk Analysis Part 1</a></li>
+
+      <li class="subsection1"><a href="#">Web Application Attack and Defense</a></li>
+      <li class="subsubsection1"><a href="#">Install Vulnerable Web App</a></li>
+      <li class="subsubsection1"><a href="#">Footprinting, Reconnaissance and Social Engineering</a></li>
+
+      <li class="subsection1"><a href="#">Web Site Attack and Defense</a></li>
+      <li class="subsubsection1"><a href="#">Path Traversal, (remote) File inclusion and Command Injection</a></li>
+
     </ul>
   </nav>
 </div>
