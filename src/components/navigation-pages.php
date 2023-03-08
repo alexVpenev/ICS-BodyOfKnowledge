@@ -25,11 +25,18 @@
       <li class="subsubsection1"><a href="../pages/threat-and-risk-analysis-pt1-cia.php">Threat & Risk Analysis Part 1</a></li>
 
       <li class="subsection1"><a href="#">Web Application Attack and Defense</a></li>
-      <li class="subsubsection1"><a href="#">Install Vulnerable Web App</a></li>
+      <li class="subsubsection1"><a href="../pages/installing-dvwa-and-juice-shop.php">Install Vulnerable Web App</a></li>
       <li class="subsubsection1"><a href="#">Footprinting, Reconnaissance and Social Engineering</a></li>
 
       <li class="subsection1"><a href="#">Web Site Attack and Defense</a></li>
       <li class="subsubsection1"><a href="#">Path Traversal, (remote) File inclusion and Command Injection</a></li>
+      <li class="subsubsection1"><a href="../pages/web-application-firewall.php">Web Application Firewalls</a></li>
+      <!-- <li class="subsubsection1"><a href="#">week-4-topic</a></li>
+      <li class="subsubsection1"><a href="#">week-4-topic</a></li> -->
+
+      <li class="subsection1"><a href="#">Web: Database Attack and Defense</a></li>
+      <li class="subsubsection1"><a href="#">SQL Injection</a></li>
+
 
     </ul>
   </nav>
