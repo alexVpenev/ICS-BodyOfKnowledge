@@ -68,30 +68,93 @@
 
             <div class="subtheme">The CIA triad</div>
 
+
+            <p>
+                Now I'm going to cover a "matrix" that helps security proffesionals evaluate security risks to their data called the CIA triad.
+                </br></br>
+                The CIA triad is a concept in information security that helps organizations protect their sensitive data from various threats.
+                It is composed of three principles: confidentiality, integrity, and availability. Here's a picture showing the triad and a short
+                explaination of the principles:
+            </p>
+
             <div class="image">
-            <img src="../assets/threat-risk-analysis-pt1/cia-triad.png" alt="cia-triad">
+                <img src="../assets/threat-risk-analysis-pt1/cia-triad.png" alt="cia-triad">
             </div>
 
+            <ul>
+                <li><b>Confidentiality</b> refers to the protection of sensitive information from unauthorized access, disclosure, or theft.
+                    This can be achieved through measures such as encryption and access controls.
+                </li>
 
+                <li><b>Integrity</b> is the assurance that data has not been tampered with or altered in any way.
+                    Maintaining data integrity involves implementing processes such as data backups, checksums, and digital signatures.
+                </li>
 
+                <li><b>Availability</b> refers to ensuring that data is accessible to authorized users whenever they need it.
+                    This can be achieved through the use of redundancy, failover systems, and disaster recovery planning.
+                </li>
+            </ul>
 
+            <p>
+                Maintaining the principles of the CIA triad is essential for organizations to protect their sensitive information from
+                various threats. Failure to implement measures to maintain confidentiality, integrity, and availability can have serious
+                consequences. For instance, if data integrity is compromised, for example by tampering, the accuracy and reliability of information
+                can be called into question, leading to errors and poor decision making.
+                </br></br>
+                Furthermore, if confidential information is not protected properly, it can be exposed to unauthorized access or disclosure,
+                leading to reputational damage, legal liability, and financial losses. Similarly, if data is not available when it is needed,
+                operations can be disrupted, leading to loss of productivity and revenue.
+                </br></br>
+                In short, the consequences of not maintaining the principles of the CIA triad can be severe, making it imperative for
+                organizations to implement measures to ensure the confidentiality, integrity, and availability of their sensitive information.
+            </p>
+
+            <div class="subtheme">Risk analysis</div>
+
+            <p>
+                IT risk analysis is a process of identifying and evaluating potential threats to an organization's information technology infrastructure,
+                systems, and data. Defensive security controls are implemented to mitigate these risks and lower the likelihood of a security breach.
+                Threats to an organization's IT infrastructure can come from various sources such as cybercriminals, script kiddies, user error, or natural calamities.
+                </br></br>
+                To determine the potential impact of these threats, a risk analysis is performed. A risk analysis helps in identifying
+                the probability of the threat occurring and the potential impact it can have. The impact can be defined in terms of various
+                factors such as costs, downtime, customer claims, fines, environmental damage, injuries, or even loss of human lives.
+                </br></br>
+                After determining the risk levels for various threats, appropriate security controls can be implemented. Security
+                controls can be implemented at various levels such as physical, infrastructure, application, and organizational levels.
+                Overall, IT risk analysis is a crucial step in ensuring the security and continuity of an organization's IT infrastructure.
+
+            </p>
+
+            <div class="subtheme">Exercise</div>
+
+            <p>
+                So to show how a potential risk analysis might look like, I decided to show one for a web application I did when I was in my 3rd
+                semester. The web application was basically facebook market place. The seller creates an offer, and if someone(client) likes it, he can
+                directly contact the seller, and they can discuss the transaction between themselves. The threads I have chosen to cover were the security threads
+                marked as top 10 by OWASP. Here's the risk analysis I did in a cyber security workshop for that app last year:
+            </p>
+
+            <div class="image">
+                <img src="../assets/threat-risk-analysis-pt1/risk-analysis.png" alt="risk-analysisd">
+            </div>
+
+            <div class="subtheme">Afterthoughts</div>
+
+            <p>
+                From malware and phishing attacks to more sophisticated attacks like advanced persistent threats, it's crucial for
+                individuals and organizations to be aware of these threats and take necessary measures to protect their sensitive
+                information. I find that the CIA triad, accompanied by risk analysis techniques, is a great way for a cybersecurity
+                professional to organize and prioritize which aspects of their hardware/software they must focus on protecting.
+                </br></br>
+                Lastly, although I previously had a couple of risk analysis lectures and exercises at university,
+                doing this document and extra reading on the subject gave me another perspective on the topic.
+            </p>
 
 
         </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 

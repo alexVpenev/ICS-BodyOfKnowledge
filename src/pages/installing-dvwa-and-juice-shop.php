@@ -97,6 +97,12 @@
 
         <div class="subtheme">Afterthoughts</div>
 
+        <p>
+            The process of installing the two images was pretty simple. I've done these kinds of tasks many times before.
+            I think the concept of these hacking "playgrounds" is really cool, and I'm glad that people create these
+            open-source projects to help others learn about cybersecurity
+        </p>
+
 
 
 

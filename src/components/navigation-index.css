@@ -13,7 +13,33 @@ body {
   overflow-x: hidden;
   padding-top: 60px;
   transition: all 0.2s;
+  overflow-y: hidden; 
 }
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #34444A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
+
 
 .navbar-toggle {
   position: fixed;
@@ -29,6 +55,11 @@ body {
 
 .navbar-links {
   height: 100%;
+}
+
+.navbar-links-wrapper {
+  height: calc(100vh - 60px); /* set the height to the remaining viewport height */
+  overflow-y: scroll;
 }
 
 .navbar-links ul {
@@ -48,22 +79,7 @@ body {
   text-decoration: none;
 }
 
-/* .navbar.hidden {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 2.7%;
-  height: 100%;
-  background-color: #34444A;
-  overflow-x: hidden;
-  padding-top: 60px;
-  transition: all 0.2s;
-}
 
-.navbar-links.hidden {
-  display: block;
-  height: 100%;
-} */
 
 .navbar-links .common {
   background-color: #b7b7b8;

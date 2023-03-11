@@ -21,16 +21,18 @@
     <div class="container">
 
         <p>
-            In this topic I will first focus on what is a firewall, what are the different versions/types of firewalls, what is special about the web application firewall.
-            And finally I am going to show how I installed and set up a WAF(Web Application Firewall), and show its functionality.
+            For this topic, I will begin by explaining what a firewall is and the various versions and types available.
+            I will also discuss the unique features of a web application firewall. Lastly, I will demonstrate the process of installing
+            and configuring a web application firewall and showcase its functionality.
         </p>
 
         <div class="subtheme">Packet Filter & Connection Tracking Firewall</div>
 
         <p>
-            This is the first and most basic type of firewall that everyone has on their system. There were a couple of generations of that firewall. The first iteration of the firewall,
-            also called the packet filter firewall came out in 1987. It's use was simple. It keeps a list of ip addresses and ports which can be allowed or blocked on inbound or outbound.
-            Any request that comes out of a ip/port that is banned, is not processed by the system. Here's a diagram of how that works:
+            The initial and most fundamental type of firewall is the one that every system has. Over time, this firewall has undergone
+            several generations. The first version of this firewall, also known as the packet filter firewall, was introduced in 1987.
+            Its function is straightforward: it maintains a record of IP addresses and ports that can be permitted or denied for inbound or
+            outbound traffic. When a request is made from a banned IP address or port, the system does not process it. To illustrate this process, here is a diagram:
         </p>
 
         <div class="image">
@@ -55,13 +57,13 @@
 
         <p>
 
-            A web application firewall (WAF) is a type of firewall that is specifically designed to protect web applications from various types of attacks,
-            such as cross-site scripting (XSS), SQL injection, and other web-based attacks. Unlike packet filter and connection tracking firewalls, which operate
-            at the network layer, a WAF operates at the application layer of the OSI model. It works by inspecting incoming HTTP traffic and applying a set of
-            predefined rules to detect and block malicious traffic. This allows WAFs to identify and block attacks that other firewalls may not be able to detect.
-            Here's a diagram showing how some requests processed as malicious are not blocked by the WAF:
-            
-            
+            The second version of the firewall, known as the Connection Tracking Firewall, was introduced in 1990. It operates in a similar manner to the first generation,
+            but with one crucial difference. It maintains a record of all the packets or "conversations" between IP addresses and ports. This feature enables system
+            administrators to analyze the entire exchange between the nodes, and in more advanced scenarios, block requests from specific IP addresses or block requests
+            with the same layer 3-4 content, which can prevent Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks. Here is an example of a Connection
+            Tracking Firewall log:
+
+
             <!-- In addition, WAFs can also provide additional security features such as SSL/TLS offloading, content caching, and load balancing, making them a popular
             choice for organizations looking to secure their web applications. -->
 
@@ -74,9 +76,66 @@
         <div class="subtheme">Installing a Web Application Firewall</div>
 
         <p>
-            To test the functionality of the WAF for myself, and compare it an instance where a firewall is not in place, I have decided to create an additional
-            virtual machine in vSphere from the dvwa2023 template provided by fontys.
+            To assess the efficacy of the WAF, I created an extra virtual machine in vSphere by utilizing the dvwa2023 template provided by Fontys.
+            Once the image was up and running, I installed the "libapache2-mod-security" library from the apt store. This library enables the Apache
+            server to inspect incoming requests and compare them to a set of predefined rules, allowing it to block any requests that match the specified rules.
+            After installing the library, I toggled the SecRuleEngine in the apache2 configuration as follows:
         </p>
+
+        <div class="image">
+            <img src="../assets/web-application-security/waf-secrulengine-toggle.png" alt="connection-tracking">
+        </div>
+
+        <p>
+            Once the change was saved, I restarted the Apache2 server and verified that the DVWA was still accessible on my browser
+            and Kali instance, which it was. Finally, I added some rules to the server by incorporating the OWASP Top 10 ruleset, which
+            includes rules for the most frequent and generic attacks. Here is the README provided by OWASP Top 10:
+        </p>
+
+        <div class="image">
+            <img src="../assets/web-application-security/waf-coreruleset.png" alt="connection-tracking">
+        </div>
+
+        <p>
+            Here's a picture of the rule files extracted into the modsecurity folder on the server:
+        </p>
+
+        <div class="image">
+            <img src="../assets/web-application-security/waf-rules-folder.png" alt="connection-tracking">
+        </div>
+
+        <p>
+            Upon restarting the Apache2 server, the rules were successfully applied, and the DVWA website could be accessed from any location
+            on the network. I then set the website's security level to a minimum and proceeded to test the WAF by attempting a command injection (;ls).
+            The results of the test are as follows:
+        </p>
+
+        <div class="image">
+            <img src="../assets/web-application-security/waf-command-injection.png" alt="connection-tracking">
+        </div>
+        <div class="image">
+            <img src="../assets/web-application-security/waf-request-denied.png" alt="connection-tracking">
+        </div>
+
+        <p>Here's the error log of the WAF: </p>
+
+        <div class="image">
+            <img src="../assets/web-application-security/waf-error-log.png" alt="connection-tracking">
+        </div>
+
+        <div class="subtheme">Afterthoughts</div>
+
+        <p>
+            In conclusion, firewalls and web application firewalls are essential tools for protecting computer networks and web applications
+            from cyber attacks. The different generations of firewalls, from the simple packet filter firewall to the more advanced layers 3-4 and
+            7 firewalls, have evolved to keep pace with the ever-increasing complexity of modern networks. Web application firewalls, in particular,
+            are crucial for safeguarding web applications from attacks that exploit vulnerabilities such as command injection and SQL injection.
+            As demonstrated by my installation and testing of a WAF, these tools can be effective in preventing attacks and maintaining the security of computer systems.
+        </p>
+
+
+
+
 
 
 

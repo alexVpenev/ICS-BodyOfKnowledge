@@ -34,6 +34,11 @@ body {
   display: none;
 }
 
+.navbar-links-wrapper {
+  height: calc(100vh - 60px); /* set the height to the remaining viewport height */
+  overflow-y: scroll;
+}
+
 .navbar-links ul {
   list-style: none;
   padding: 0;
@@ -87,4 +92,27 @@ body {
   padding-left: 55px;
   background-color: #e6b9b8;
   /* background-color: #1df800; */
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #34444A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
