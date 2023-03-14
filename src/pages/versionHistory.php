@@ -32,12 +32,47 @@
 		<tr>
 			<td>0.2</td>
 			<td>18.02.2023</td>
-			<td>Basic Hacking and Pentesting Process + Threat & Risk Analysis Part 1</td>
+			<td>Finished Basic Hacking and Pentesting Process page</td>
 		</tr>
 		<tr>
 			<td>0.3</td>
-			<td></td>
-			<td></td>
+			<td>25.02.2023</td>
+			<td>Finished the Threat & Risk Analysis Part 1 & Installing Vulnerable web apps (Juice Shop and DVWA) pages</td>
+		</tr>
+		<tr>
+			<th colspan="3">
+				Week 2
+			</th>
+		</tr>
+		<tr>
+			<td>0.4</td>
+			<td>3.03.2023</td>
+			<td>Completed the Footprinting, Reconnaissance and Social Engineering page</td>
+		</tr>
+		<tr>
+			<td>0.4</td>
+			<td>7.03.2023</td>
+			<td>Completed the Path Traversal, (remote) File Inclusion and Command Injection page</td>
+		</tr>
+		<tr>
+			<th colspan="3">
+				Week 3
+			</th>
+		</tr>
+		<tr>
+			<td>0.5</td>
+			<td>10.03.2023</td>
+			<td>Finished the Web Application Firewall and SQL injection pages</td>
+		</tr>
+		<tr>
+			<th colspan="3">
+				Week 4
+			</th>
+		</tr>
+		<tr>
+			<td>0.6</td>
+			<td>tldr</td>
+			<td>Working on HIDS and XSS/CSRF</td>
 		</tr>
 	</table>
 </body>

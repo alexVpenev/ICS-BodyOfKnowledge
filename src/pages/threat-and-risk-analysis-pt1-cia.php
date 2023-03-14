@@ -18,7 +18,16 @@
     <div class="container">
         <p>In this topic I'm going to ignore the hackers and the type of hackers there exist, and I am going to focus on the different types of hacks
             bad individuals will try to carry out on systems. Afterwards I'm going to focus on how a cyber security expert can determine which parts
-            of the systems he is maintaining can be compromised using the <b>CIA triad</b> and determine the probability and impact they can leave.</p>
+            of the systems he is maintaining can be compromised using the <b>CIA triad</b> and determine the probability and impact they can leave.
+        </p>
+
+
+        <div class="image">
+            <img src="../assets/threat-risk-analysis-pt1/intro.jpg" alt="intro">
+        </div>
+
+
+
         <div class="subtheme">Kinds of Security Threats</div>
         <p>
             As technology continues to advance, the threat of cyber attacks is becoming increasingly prevalent.
