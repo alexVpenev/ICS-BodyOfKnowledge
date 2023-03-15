@@ -71,7 +71,7 @@
 		</tr>
 		<tr>
 			<td>0.6</td>
-			<td>tldr</td>
+			<td>14.03.2023</td>
 			<td>Working on HIDS and XSS/CSRF</td>
 		</tr>
 	</table>

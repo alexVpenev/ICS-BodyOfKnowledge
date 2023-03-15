@@ -107,7 +107,14 @@
             paths. This can allow an attacker to navigate outside of the
             web root directory and access files or directories that should
             not be accessible.
-            </br></br>
+        </p>
+
+        <div class="image">
+            <img src="../assets/pti-cmi/path-trav-intro.png" alt="path-traversal">
+        </div>
+
+
+        <p>
             Local file inclusion (LFI) is a vulnerability that occurs when an attacker is able to manipulate user input to include
             local files on the server where the web application is hosted. This can
             allow an attacker to read sensitive files, such as configuration files or

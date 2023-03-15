@@ -35,7 +35,7 @@
           <li class="subsubsection1"><a href="../pages/path-traversal-file-inclusion-command-injection.php">Path Traversal, (remote) File inclusion and Command Injection</a></li>
           <li class="subsubsection1"><a href="../pages/web-application-firewall.php">Web Application Firewalls</a></li>
           <li class="subsubsection1"><a href="../pages/host-intrusion-detection-prevention.php">Host Intrusion Detection and Prevention (HIDS)</a></li>
-          <li class="subsubsection1"><a href="#">XSS & CSRF</a></li>
+          <li class="subsubsection1"><a href="../pages/xss-csrf.php">XSS & CSRF</a></li>
 
 
           <li class="subsection1"><a href="#">Web: Database Attack and Defense</a></li>
