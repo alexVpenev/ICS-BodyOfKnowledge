@@ -97,12 +97,24 @@
 
 
         <div class="image">
-            <img src="../assets/hids/hids-intro.png" alt="">
+            <img src="../assets/hids/hids (1).jpg" alt="">
+        </div>
+
+        <div class="image">
+            <img src="../assets/hids/hids (2).jpg" alt="">
+        </div>
+
+        <div class="image">
+            <img src="../assets/hids/hids (3).jpg" alt="">
+        </div>
+
+        <div class="image">
+            <img src="../assets/hids/hids (4).jpg" alt="">
         </div>
 
         <p>
 
-            
+
 
         </p>
 
