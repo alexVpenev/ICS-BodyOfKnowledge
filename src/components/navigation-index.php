@@ -51,6 +51,20 @@
 
 
 
+
+
+          
+
+          
+          <li class="section2"><a href="#">Network Security</a></li>
+
+          <li class="subsection2"><a href="#">Network: Identification of Vulnerabilities</a></li>
+          <li class="subsubsection2"><a href="#">Network Scanning and Enumeration (incl. Sniffing)</a></li>
+          <li class="subsubsection2"><a href="#">How to securely host a Web Shop with Secure Network Connections (HTTPS/TLS/SSH)</a></li>
+
+
+
+
         </ul>
       </div>
     </nav>

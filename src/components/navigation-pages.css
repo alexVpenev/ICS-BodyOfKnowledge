@@ -94,6 +94,21 @@ body {
   /* background-color: #1df800; */
 }
 
+.navbar-links .section2 {
+  background-color: #f89962;
+}
+.navbar-links .subsection2 {
+  padding-left: 35px;
+  background-color: #d9b394;
+}
+
+/* Styles for subsubsections */
+.navbar-links .subsubsection2 {
+  padding-left: 55px;
+  background-color: #e6d1b8;
+  /* background-color: #1df800; */
+}
+
 
 
 
