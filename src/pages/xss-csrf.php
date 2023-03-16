@@ -142,60 +142,55 @@
 
         <div class="image">
             <img src="../assets/xss-csrf/dom-low.png" alt="dom-low">
-            <a><i>(Low Difficulty)
+            <a><i>(Low Difficulty) The source code here doesn't provide any information, it just says no protection. There are two ways of injecting the usual script.
+                    First is changing the value of the html element, the second one is just changing the link (put injection code instead of 'English').
                 </i></a>
         </div>
 
         <div class="image">
+            <img src="../assets/xss-csrf/dom-med-source .png" alt="dom-med">
             <img src="../assets/xss-csrf/dom-med.png" alt="dom-med">
-            <a><i>(Medium Difficulty)
+            <a><i>(Medium Difficulty) This was one of the harder exercises I've done. I had to get some help from the internet. If you look at the page source code you can
+                    see the select field. So when injecting code we are closing the select and then, inputting the inject alert code.
                 </i></a>
         </div>
 
-        <div class="image">
-            <img src="../assets/xss-csrf/dom-med.png" alt="dom-high">
-            <a><i>(High Difficulty)
-                </i></a>
-        </div>
 
         <div class="subtheme">Cross-side Request Forgery</div>
 
         <p>
-            Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they're currently
-            authenticated. With a little help of social engineering (such as sending a link via email or chat), an attacker may trick the users of a web
-            application into executing actions of the attacker's choosing. If the victim is a normal user, a successful CSRF attack can force the user
-            to perform state changing requests like transferring funds, changing their email address, and so forth. If the victim is an administrative
-            account, CSRF can compromise the entire web application.
+            CSRF is an attack that forces an end user to execute unwanted actions on a web application in which they are currently
+            authenticated. With a little help of social engineering (such as sending a link via email/chat), an attacker may force
+            the users of a web application to execute actions of the attacker's choosing.
             </br></br>
-            The reason this works is that many websites use cookies or other forms of authentication to verify that requests are coming from an
-            authorized user. But if the attacker can trick the victim's browser into sending a request with the same cookie or authentication
-            token, the website will think the request is legitimate and carry out the action as requested.
+            A successful CSRF exploit can compromise end user data and operation in case of normal user. If the targeted end user
+            is the administrator account, this can compromise the entire web application.
             </br></br>
             To prevent CSRF attacks, website developers can use techniques such as adding a "token" to each request that verifies that it came from
             an authorized source, or requiring additional authentication steps for sensitive actions. Users can also protect themselves by being
             cautious about clicking on links or submitting forms from unfamiliar websites, and by logging out of websites when they are finished using them.
             </br>
-            Here are the exercises from the DVWA page
+            Here are the exercises from the DVWA page:
         </p>
 
         <div class="image">
             <img src="../assets/xss-csrf/csrf-low.png" alt="csrf-low">
-            <a><i>(Low Difficulty)
+            <a><i>(Low Difficulty) There is no protection here, the password input can be seen in the link. The password will change if I change it to anything I want.
+                Now if I send that link to another user that is already authenticated, I can change his password. The only check performed is to check if the passwords match.
                 </i></a>
         </div>
 
         <div class="image">
             <img src="../assets/xss-csrf/csrf-med.png" alt="csrf-med">
-            <a><i>(Medium Difficulty)
+            <a><i>(Medium Difficulty) The source code checks where the request came from. So you're supposed to 
+                chain multiple vulnerabilities together. An example solution can be pasting the link in the reflected xss page, and then the check will be bypassed and the password changed.
+                I found this difficulty quite strange, and I think it's a bad example of CSRF, but still here's the solution.
                 </i></a>
         </div>
 
         <div class="image">
-            <img src="../assets/xss-csrf/csrf-high.png" alt="csrf-high">
-            <a><i>(High Difficulty)
-                </i></a>
+            <img src="../assets/xss-csrf/csrf-med-solution.png" alt="csrf-med-solution">
         </div>
-
 
         <div class="subtheme">Afterthoughts</div>
 

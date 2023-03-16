@@ -71,10 +71,16 @@
 		</tr>
 		<tr>
 			<td>0.6</td>
-			<td>14.03.2023</td>
-			<td>Working on HIDS and XSS/CSRF</td>
+			<td>15.03.2023</td>
+			<td>Finished XSS & CSRF page and exercises</td>
+		</tr>
+		<tr>
+			<td>0.7</td>
+			<td>tldr</td>
+			<td>Working on HIDS page</td>
 		</tr>
 	</table>
+	
 </body>
 
 </html>

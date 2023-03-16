@@ -79,12 +79,35 @@
             threats, including malware, unauthorized access, and data breaches.
         </p>
 
-        
+
         <div class="subtheme">Installing a Host Intrusion Detection Software</div>
 
         <p>
             The HIDS that I am going to install is called <b>Wazuh</b>.
         </p>
+
+        <div class="subtheme">Installing a Host Intrusion Detection Software on a Client Machine</div>
+
+        <p>
+            Explain how to setup Client.
+        </p>
+
+        <div class="subtheme">Running Examples</div>
+
+
+
+        <div class="image">
+            <img src="../assets/hids/hids-intro.png" alt="">
+        </div>
+
+        <p>
+
+            
+
+        </p>
+
+
+
 
 
 

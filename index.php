@@ -135,7 +135,7 @@
       <h1 class="firstTitle">Body of Knowledge</h1>
       <h1 class="secondaryTitle">Cyber Security | Semester 4</h1>
       <p>by Aleksandar Penev</p>
-      <div class="version-info">Version 0.5</div>
+      <div class="version-info">7,366 words Version 0.6</div>
     </div>
   </div>
 
