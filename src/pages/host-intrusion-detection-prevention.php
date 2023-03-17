@@ -83,37 +83,112 @@
         <div class="subtheme">Installing a Host Intrusion Detection Software</div>
 
         <p>
-            The HIDS that I am going to install is called <b>Wazuh</b>.
+            The HIDS that I am going to install is called <b>Wazuh</b>. Wazuh is an open-source security detection, visibility, and compliance platform designed
+            to help organizations monitor and protect their IT infrastructure. It includes capabilities such as host-based intrusion detection, log analysis,
+            file integrity monitoring, and security analytics, all integrated into a single solution. It was recommended to us by the university lecturers.
+            </br>
+            Wazuh's documentation was excellent, providing comprehensive information on the installation and configuration of servers, dashboards,
+            and nodes. However, the process of installation can be quite involved and may require significant troubleshooting. Due to the complexity involved,
+            I will not be covering every step of the installation process, but will focus on the most important parts.
         </p>
-
-        <div class="subtheme">Installing a Host Intrusion Detection Software on a Client Machine</div>
-
-        <p>
-            Explain how to setup Client.
-        </p>
-
-        <div class="subtheme">Running Examples</div>
-
 
 
         <div class="image">
-            <img src="../assets/hids/hids (1).jpg" alt="">
-        </div>
-
-        <div class="image">
-            <img src="../assets/hids/hids (2).jpg" alt="">
+            <img src="../assets/hids/wazuh-config.png" alt="">
+            <a><i>
+                    The first step of the proccess was to download the config that you see and configure all the nodes,servers and dashboard. I was only using it on a single
+                    ubuntu image so that was an easy process. After configuring the .yml file, I ran a script that created a .tar installation file for me.
+                </i></a>
         </div>
 
         <div class="image">
             <img src="../assets/hids/hids (3).jpg" alt="">
+            <a><i>
+                    I continued with the installation process, there were at least 4 different installations for each of wazuh's aspects(node, servers and dashboard).
+                    This is how the dashboard looked like after installing everything. Now I had to setup the actual clients.
+                </i></a>
+        </div>
+
+
+
+
+
+
+
+        <div class="subtheme">Installing a Host Intrusion Detection Software on a Client Machine</div>
+
+        <p>
+            What followed was configuring a client for the server/dashboard I just installed. Thankfully this time the process was simplyfied by the dashboard tutorial.
+            A command for an operation system of your choice(clients agent os) was created automatically. That command installs the wazuh agent and configures it to connect with the
+            host automatically. Here's how the process looked like:
+        </p>
+
+        <div class="image">
+            <img src="../assets/hids/wazuh-add-agent.png" alt="">
+            <a><i>
+                    This is the create new agent page. At the bottom of the picture you can see the command that installs the clients application and connects the machine to the
+                    server we've configured.
+                </i></a>
+        </div>
+
+
+        <div class="image">
+            <img src="../assets/hids/hids (2).jpg" alt="">
+            <a><i>
+                    Here I had to additionally configure the client application. But here's an image of how the client's application looks like.
+                    This was installed automatically with the command.
+                </i></a>
         </div>
 
         <div class="image">
-            <img src="../assets/hids/hids (4).jpg" alt="">
+            <img src="../assets/hids/client-page.png" alt="">
+            <a><i>
+                    This is how the client's machine page with stats and performances looks like after configuring the client.
+                </i></a>
         </div>
 
-        <p>
 
+
+
+        <div class="subtheme">Running Examples</div>
+
+        <p>
+            Now I will try some use cases to see if the client is configured correctly. Here you can also see how the system works.
+        </p>
+
+        <div class="image">
+            <img src="../assets/hids/hids (1).jpg" alt="">
+            <a><i>
+                    Let's try with the most basic example. Here I entered a wrong password a couple of times on the client's log in page.
+                </i></a>
+        </div>
+
+
+
+        <div class="image">
+            <img src="../assets/hids/hids (4).jpg" alt="">
+            <a><i>
+                    In this page you can see the reaction of the dashboard. If you zoom in on the page, you can see there have been 2 authentication failures.
+                    So it works!
+                </i></a>
+        </div>
+
+
+
+
+
+        <div class="subtheme">Afterthoughts</div>
+
+        <p>
+            I have mixed feelings about using a Host-Intrusion System. While it is commonly installed on web servers, it can place a 
+            significant burden on client resources. Given the sheer size of servers, the idea of using a HIDS to monitor the system 
+            full-time seems overwhelming. I believe there should be an alternative to this approach, but I have not been able to gather 
+            more information on the subject.
+            </br></br>
+            In my opinion, a more practical use of HIDS would be to install it on workers' workstations or laptops, where it can monitor 
+            for suspicious activity or malware infections. However, I must acknowledge that installing HIDS, along with web application 
+            and packet filter firewalls on a web server, would make for a robust and challenging system to breach. Despite the resource 
+            requirements, I think HIDS can be a valuable tool for enhancing the security of an organization's IT infrastructure.
 
 
         </p>

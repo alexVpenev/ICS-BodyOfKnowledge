@@ -76,8 +76,9 @@
 		</tr>
 		<tr>
 			<td>0.7</td>
-			<td>tldr</td>
-			<td>Working on HIDS page</td>
+			<td>16.03.2023</td>
+			<td>Completed week 4's Host-Intrusion-Detection-System page, marking the end of the web application security subjects.
+			</td>
 		</tr>
 	</table>
 	
