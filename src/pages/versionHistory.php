@@ -80,6 +80,17 @@
 			<td>Completed week 4's Host-Intrusion-Detection-System page, marking the end of the web application security subjects.
 			</td>
 		</tr>
+		<tr>
+			<th colspan="3">
+				Week 5
+			</th>
+		</tr>
+		<tr>
+			<td>1.0</td>
+			<td>25.03.2023</td>
+			<td>Working on Network Scanning and Enumeration including Sniffing
+			</td>
+		</tr>
 	</table>
 	
 </body>

@@ -49,8 +49,12 @@
           <li class="section2"><a href="#">Network Security</a></li>
 
           <li class="subsection2"><a href="#">Network: Identification of Vulnerabilities</a></li>
-          <li class="subsubsection2"><a href="#">Network Scanning and Enumeration (incl. Sniffing)</a></li>
-          <li class="subsubsection2"><a href="#">How to securely host a Web Shop with Secure Network Connections (HTTPS/TLS/SSH)</a></li>
+          <li class="subsubsection2"><a href="../pages/network-scanning-enumeration-sniffing.php">Network Scanning and Enumeration (incl. Sniffing)</a></li>
+          <li class="subsubsection2"><a href="../pages/howto-securely-host-with-secure-network-connections.php">How to securely host a website with Secure Network Connections (HTTPS/TLS/SSH)</a></li>
+
+          
+          <li class="subsection2"><a href="#">Network: Protect the Network</a></li>
+          <li class="subsubsection2"><a href="../pages/law-ethics-responsible-disclosure-gdpr.php">Law & Ethics and Responsible Disclosure + GDPR</a></li>
 
 
         </ul>
