@@ -26,9 +26,9 @@
     <div class="container">
 
         <p>
-            This is the first topic I'll cover out of the Network Security theme. Here I will begin by covering the concept of what Network Scanning is, I will try to go more in
-            depth into the topic and the technology that surrounds it. I will also describe the scanning process of a network, and finally show some examples of how scanning works
-            along with some final thoughts.
+            This is the first topic I'll cover out of the Network Security theme. Here I will begin by covering the concept of what Network Scanning is, 
+            I will try to go more in depth into the topic and the technology that surrounds it. I will also describe the scanning process of a network, 
+            and finally show some examples of how scanning works along with some final thoughts.
         </p>
 
         <div class="image">
@@ -36,9 +36,11 @@
         </div>
 
 
-        <div class="subtheme"> </div>
+        <div class="subtheme">Networks, Hosts, Devices and CKC Reconnaissance</div>
 
         <p>
+            Since this is the first topic of the new Network Security theme, I wanted to delve into the basics of networks, hosts and devices, 
+            before heading in the security. To describe a 
 
         </p>
 
