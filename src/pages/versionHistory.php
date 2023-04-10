@@ -88,7 +88,13 @@
 		<tr>
 			<td>1.0</td>
 			<td>25.03.2023</td>
-			<td>Working on Network Scanning and Enumeration including Sniffing
+			<td>Finished Network Scanning and Enumeration(incl. Sniffing)
+			</td>
+		</tr>
+		<tr>
+			<td>1.1</td>
+			<td>26.03.2023</td>
+			<td>Finished Secrely hosting a website using Secure Network Connection(SSL, SSH)
 			</td>
 		</tr>
 	</table>

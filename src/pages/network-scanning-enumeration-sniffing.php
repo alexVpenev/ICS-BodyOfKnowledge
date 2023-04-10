@@ -154,7 +154,7 @@
         <div class="image">
             <img src="../assets/network-scanning/sniffing.png" alt="hids-intro">
             <a><i>This is a slide out of the final presentation I did for a mobile application. The slide shows how the packets are sent between the different services, 
-                and returned back to the user.
+                and returned back to the user. The capturing of those packets is called sniffing.
             </i></a>
         </div>
 
