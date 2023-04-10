@@ -78,14 +78,99 @@
         <div class="subtheme">Examples and Exercises</div>
 
         <p>
-
+            The scanning targets of the following examples were performed on the server this website is hosted on and the ubuntu
+            image on vSphere on which I am hosting the Juice Shop. The target IPs are 143.42.53.121 and 192.168.185.71. Here are
+            some examples of different port scanning techniques:
         </p>
-        <!-- 
+
+        <p>
+            <i>The three-way handshake</i> is a tcp protocol that involves three packets. The process goes like this:
+            First the client, that wants to connect to a certain server, sends out a TCP SYN packet. Then the server
+            responds with a SYN-ACK packet, and finally the client sends out an ACK(acknowledge) packet. After the "handshake",
+            a TCP connection is established and data can be exchanged.
+        </p>
+
+        
+
+        <div class="image">
+            <img src="../assets/network-scanning/scan-sS.png" alt="hids-intro">
+            <a><i>-sS scan uses the three-way handshake. It sends out SYN packets to a server's ports and awaits SYN-ACK responses.
+                But it doesn't establish a connection! This technique is the default for many scanners, because it is quick and safe.
+                It is very hard to detect due to it not actually establishing a connection.
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/network-scanning/scan-sT.png" alt="hids-intro">
+            <a><i>-sT does the same thing as the -sS scan, but it establishes a connection with the server. This is usually used when
+                the -sS option is unavailable. But it has some advantages, it can detect open, closed and filtered ports, whereas the -sS can
+                detect only open and closed ports. The chance of detecting this scan is greater.
+            </i></a>
+        </div>
+
+        <p>
+            <i>The UDP protocol</i> is almost the same as TCP protocol. It is faster, but less reliable.
+            When a TCP packet is sent, the server will ask the client if he received the packet, and if it doesn't recieve a responce, it will
+            send the packet again. But a UDP connection will not ask for a confirmation, it will continue to send packets, even if the client
+            didn't recieve any. This is useful in video streaming and multiplayer gaming.
+            </br>
+            Example: If a multiplayer game uses TCP and a packet is lost and then resent again, the player will be shown things 
+            that have already happened while the other players will be up to date. There is no use for TCP in that case. 
+        </p>
+        
+        <div class="image">
+            <img src="../assets/network-scanning/scan-sU.png" alt="hids-intro">
+            <a><i>-sU scans for UDP ports/services. It sends out a UDP packet and awaits a response, if there is no response
+                it may mean that the port is either closed or filtered. It is slow, UDP packets are rarely sent back, leaving NMAP to time out
+                that is why I stopped the scan in the picture. Also UDP packets are mostly blocked by firewalls and other security measures.
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/network-scanning/scan-sA.png" alt="hids-intro">
+            <a><i>-sA scan sends out ACK packets(the final packet of the 3-way handshake) and checks to see if a port is closed.
+                This scan is mostly used to determine wether a firewall is blocking pacets or understand the firewall's ruleset.
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/network-scanning/scan-regular.png" alt="hids-intro">
+            <img src="../assets/network-scanning/scan-pP.png" alt="hids-intro">
+            <a><i>When a port is not specified, nmap only sends packets to the most common ports. That is why in the first scan of the server this
+                website is hosted on, port 2999 does not appear. I used the -p - command at the end to check for every port.
+            </i></a>
+        </div>
+
+
+        <div class="image">
+            <img src="../assets/network-scanning/scan-O.png" alt="hids-intro">
+            <a><i>This scan allows me to determine the OS version of the server. It guessed with 91% that the linux version I am running is 2.6.X
+                but in reality it is 5.19.0. It would be way more accurate if I had more services running on the server. And if a hacker would try
+                to overtake a server, he would search for OS exploits.
+            </i></a>
+        </div>
+
+        
+        <div class="image">
+            <img src="../assets/network-scanning/sniffing.png" alt="hids-intro">
+            <a><i>This is a slide out of the final presentation I did for a mobile application. The slide shows how the packets are sent between the different services, 
+                and returned back to the user.
+            </i></a>
+        </div>
+
+
+
+
+
+
         <div class="subtheme">Afterthoughts</div>
 
         <p>
-
-        </p> -->
+            After doing this topic I have a better idea of how network scanning works, I have read a lot about the fundamentals
+            of networks and packet transmission protocols. Network Scanning is essential for identifying vuonerabilities and improving security
+            of a network. And it is crucial for network administrators to understand the different scanning and enumeration techniques in order to
+            protect their networks. Overall, I found this BoK subject to be very helpful as it allowed me to employ a range of scan types and broaden my knowledge.
+        </p> 
 
     </div>
 
