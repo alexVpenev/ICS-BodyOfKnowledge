@@ -97,6 +97,12 @@
 			<td>Finished Secrely hosting a website using Secure Network Connection(SSL, SSH)
 			</td>
 		</tr>
+		<tr>
+			<td>1.2</td>
+			<td>27.03.2023</td>
+			<td>Finished Law & Ethics, Responsible Disclosure and GDPR
+			</td>
+		</tr>
 	</table>
 	
 </body>
