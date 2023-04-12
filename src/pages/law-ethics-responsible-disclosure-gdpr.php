@@ -90,7 +90,7 @@
             has fallen victim to this absurd data breach. Successive governments have spent 1.15 billion euros on e-governement projects
             since 2002, producing no results. A government report in 2018, indicated a very low level of cybersecurity at government
             eneties, citing a lack of qualified IT employees and noncompetetive salaries compared to the private sector. As they say, that
-            is what corruption does: You steal 60 million and damage the country for 600 million.
+            is what corruption does: You steal 60 million and inflict damage to the country equal to 600 million.
         </p>
 
         <div class="image">
