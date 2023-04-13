@@ -109,9 +109,9 @@
 			</th>
 		</tr>
 		<tr>
-			<td>1.4</td>
-			<td>27.03.2023</td>
-			<td>Finished Law & Ethics, Responsible Disclosure and GDPR
+			<td>1.3</td>
+			<td>28.03.2023</td>
+			<td>Working on VPN
 			</td>
 		</tr>
 	</table>
