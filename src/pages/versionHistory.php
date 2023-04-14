@@ -114,6 +114,12 @@
 			<td>Working on VPN
 			</td>
 		</tr>
+		<tr>
+			<td>1.4</td>
+			<td>03.04.2023</td>
+			<td>Finished Network Segmentation and Separation
+			</td>
+		</tr>
 	</table>
 	
 </body>

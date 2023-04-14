@@ -55,7 +55,7 @@
           
           <li class="subsection2"><a href="#">Network: Protect the Network</a></li>
           <li class="subsubsection2"><a href="../pages/law-ethics-responsible-disclosure-gdpr.php">Law & Ethics and Responsible Disclosure + GDPR</a></li>
-          <li class="subsection1"><a href="#">Network Separation and Segmentation</a></li>
+          <li class="subsubsection2"><a href="../pages/network-separation-segmentation.php">Network Separation and Segmentation</a></li>
 
           
           <li class="subsection2"><a href="#">Network: Attack the Network</a></li>

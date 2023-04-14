@@ -114,9 +114,9 @@
             the database, no MFA or whitelisted IPs. Supposedly the credentials were found in a git repository, that included the enviroments file.
         </p>
 
-        <div class="image">
+        <!-- <div class="image">
             <img src="../assets/ethics/breach-example.png" alt="intro">
-        </div>
+        </div> -->
 
         <div class="image">
             <img src="../assets/ethics/breach-example.png" alt="intro">
