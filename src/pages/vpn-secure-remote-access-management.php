@@ -103,6 +103,9 @@
 
         <div class="subtheme">Configuring a VPN in pFsense</div>
 
+        <p>
+            The 
+        </p>
 
 
 
@@ -117,19 +120,61 @@
 
 
 
-
-        <!-- <div class="image">
-            <img src="../assets/vpn/ex-connection1.png" alt="vpn">
+        <div class="image">
+            <img src="../assets/vpn/setup-ca.png" alt="vpn">
             <a><i>
             </i></a>
         </div>
 
         
         <div class="image">
-            <img src="../assets/vpn/ex-connection1.png" alt="vpn">
+            <img src="../assets/vpn/setup-certificates.png" alt="vpn">
             <a><i>
             </i></a>
-        </div> -->
+        </div>
+
+
+        <div class="image">
+            <img src="../assets/vpn/setup-packages.png" alt="vpn">
+            <a><i>
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/vpn/setup-configuredOpenVPN.png" alt="vpn">
+            <a><i>
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/vpn/setup-openvpn-running.png" alt="vpn">
+            <a><i>
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/vpn/setup-logs.png" alt="vpn">
+            <a><i>
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/vpn/setup-exportUser.png" alt="vpn">
+            <a><i>
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/vpn/setup-login.png" alt="vpn">
+            <a><i>
+            </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/vpn/setup-working.png" alt="vpn">
+            <a><i>
+            </i></a>
+        </div>
 
 
 
