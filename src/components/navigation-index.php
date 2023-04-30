@@ -74,7 +74,7 @@
 
 
           <li class="subsection2"><a href="#">Network: Monitor and Detect</a></li>
-          <li class="subsubsection2"><a href="#">WiFi Hacking</a></li>
+          <li class="subsubsection2"><a href="src/pages/wifi-hacking.php">WiFi Hacking</a></li>
           <li class="subsubsection2"><a href="#">Network Inrusion Detection and Prevention(NIDS/IPS)</a></li>
 
 

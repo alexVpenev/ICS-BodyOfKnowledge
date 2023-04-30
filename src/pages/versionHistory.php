@@ -116,7 +116,7 @@
 		</tr>
 		<tr>
 			<td>1.4</td>
-			<td>15.03.2023</td>
+			<td>30.04.2023</td>
 			<td>Finished VPN: secure-remote-connection
 			</td>
 		</tr>
@@ -127,7 +127,7 @@
 		</tr>
 		<tr>
 			<td>1.5</td>
-			<td>24.04.2023</td>
+			<td>30.04.2023</td>
 			<td>Working on WiFi Hacking
 			</td>
 		</tr>

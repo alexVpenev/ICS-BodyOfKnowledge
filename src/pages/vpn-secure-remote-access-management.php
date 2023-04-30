@@ -22,9 +22,10 @@
     <div class="container">
 
         <p>
-            This will be a more practically focused topic. I will start by explaining what VPN is, then because I already have a VPN,
-            setup on the server this website is hosted on, I will show the benefits and functionalities that it offers.
-            And finally I will show the steps of the process of configuring a VPN using pFsense in vSphere.
+            This will be a more practically aligned topic. As usual, I will start with going a bit in depth about the topic.
+            Then, since I already have a VPN setup on the server this website is hosted on, I will show the benefits and
+            functionalities that it offers. And finally I will show the steps of the process of configuring a VPN using
+            pFsense in vSphere.
         </p>
 
         <div class="image">
@@ -38,22 +39,7 @@
             were physically connected with a cable. The trafic still goes over the internet and can be sniffed trough tools like
             wireshark, but it encypted and one can hardly make sense of it.
             </br></br>
-            The VPN has 2 parts, the VPN Client(usually installed on a remote device) creates a secure and encrypted tunnel to the
-            VPN server. The VPN Server should be located on a network that is safe and can be safely managed, because any traffic
-
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-            <!-- INCREDIBLY IMPORTANT!!!! FINISH THIS!!! -->
-
-            The VPN has 2 parts, the VPN Client(usually installed on a remote device) which is an application that connects to a VPN server
-            and establishes a
+            The VPN has 2 parts, the VPN Client (usually installed on a remote device) creates a secure and encrypted tunnel to the VPN server. The VPN Server should be located on a network that is safe and can be safely managed, because any traffic that passes through the VPN server is decrypted and forwarded to its intended destination. This means that the security of the VPN connection depends not only on the VPN client, but also on the security of the VPN server and the network it is located on. It is important to ensure that the VPN server is properly configured and secured to prevent unauthorized access or attacks.
         </p>
 
 
@@ -104,77 +90,87 @@
         <div class="subtheme">Configuring a VPN in pFsense</div>
 
         <p>
-            The 
+            The exercise for this topic is creating and configuring a VPN on my current pFsense firewall that I have setup in the previous topic.
+            I won't be going through each small option/checkbox I've configured, but will show the main steps I took, due to the configuration being very lenghty and dry.
+            Here's the process I've gone through:
         </p>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
         <div class="image">
             <img src="../assets/vpn/setup-ca.png" alt="vpn">
-            <a><i>
-            </i></a>
+            <a><i>First step was to create a certificate authority(CA).  
+                </i></a>
         </div>
 
-        
+
         <div class="image">
             <img src="../assets/vpn/setup-certificates.png" alt="vpn">
-            <a><i>
-            </i></a>
+            <a><i>Now using the CA, I've created a server certificate.
+                </i></a>
         </div>
 
 
         <div class="image">
             <img src="../assets/vpn/setup-packages.png" alt="vpn">
-            <a><i>
-            </i></a>
+            <a><i>Now after configuring the certificates and users, I went into the package manager page in pFsense and installed the OpenVPN client export package.
+                </i></a>
         </div>
 
         <div class="image">
             <img src="../assets/vpn/setup-configuredOpenVPN.png" alt="vpn">
-            <a><i>
-            </i></a>
+            <a><i>Afterwards I went into the VPN page and setup an OpenVPN server. This process had a lot of steps and I had to use and configure all the certificates I
+                created in the previous steps together. This is how the server looks like after the setup.
+                </i></a>
         </div>
 
         <div class="image">
             <img src="../assets/vpn/setup-openvpn-running.png" alt="vpn">
-            <a><i>
-            </i></a>
+            <a><i>This is a screenshot of all the services running on the firewall. As you can see OpenVPN ran successfully.
+                </i></a>
         </div>
 
         <div class="image">
             <img src="../assets/vpn/setup-logs.png" alt="vpn">
-            <a><i>
-            </i></a>
+            <a><i>To be sure, I checked all the logs of the service. Everything is running properly.
+                </i></a>
         </div>
 
         <div class="image">
             <img src="../assets/vpn/setup-exportUser.png" alt="vpn">
-            <a><i>
-            </i></a>
+            <a><i>Here I went in and downloaded the client for the configured VPN.
+                </i></a>
         </div>
 
         <div class="image">
             <img src="../assets/vpn/setup-login.png" alt="vpn">
-            <a><i>
-            </i></a>
+            </br><a><i>After installing and running the client, we just need to login with the user creadentials that we configured for the user. Everything else is
+                    configured and setup automatically.
+                </i></a>
         </div>
 
         <div class="image">
             <img src="../assets/vpn/setup-working.png" alt="vpn">
-            <a><i>
-            </i></a>
+            </br><a><i>Finally, here's the notification we get after connecting. We got the IP 172.16.2.2 in our VLAN B. Everything is working properly.
+                </i></a>
         </div>
+
+        <div class="image">
+            <img src="../assets/vpn/final-network-diagram.png" alt="vpn">
+            </br><a><i>This is how the network looks like after configuring the VPN.
+                </i></a>
+        </div>
+
+
+        <div class="subtheme">Afterthoughts</div>
+
+        <p>
+            This topic was not new to me, I've had a VPN since I was in high school. Up until now I've only used it for surfing only, but in the
+            context of system administration and cyber security, it is even more important. Working on systems without secure connections especially
+            on public networks is incredibly dangerous, that's why it is absolutely necesary. While writing/doing this topic I learned how to configure
+            a VPN on a network firewall. Up until now, I've only configured it out of open-source docker containers. In essence, creating this topic
+            was helpful.
+        </p>
 
 
 
