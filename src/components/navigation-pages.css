@@ -131,3 +131,20 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+
+
+
+.navbar-links .section3 {
+  background-color: #ddf862;
+}
+.navbar-links .subsection3 {
+  padding-left: 35px;
+  background-color: #d7d994;
+}
+
+
+.navbar-links .subsubsection3 {
+  padding-left: 55px;
+  background-color: #dfe6b8;
+}

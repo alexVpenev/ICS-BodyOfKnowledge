@@ -14,6 +14,7 @@
 		<h1>Version History</h1>
 	</header>
 	<table>
+		</br>
 		<tr>
 			<th>Version</th>
 			<th>Date Completed</th>
@@ -128,11 +129,22 @@
 		<tr>
 			<td>1.5</td>
 			<td>30.04.2023</td>
-			<td>Working on WiFi Hacking
+			<td>Finished WiFi Hacking
 			</td>
 		</tr>
+		<tr>
+			<td>1.6</td>
+			<td>02.04.2023</td>
+			<td>Working on Sniffing and Spoofing
+			</td>
+		</tr>
+		<tr>
+			<th colspan="3">
+				Week 8
+			</th>
+		</tr>
 	</table>
-	
+
 </body>
 
 </html>
