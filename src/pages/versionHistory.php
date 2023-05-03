@@ -135,7 +135,7 @@
 		<tr>
 			<td>1.6</td>
 			<td>02.04.2023</td>
-			<td>Working on Sniffing and Spoofing
+			<td>Finished Sniffing and Spoofing
 			</td>
 		</tr>
 		<tr>
@@ -143,7 +143,14 @@
 				Week 8
 			</th>
 		</tr>
+		<tr>
+			<td>1.7</td>
+			<td>03.04.2023</td>
+			<td>Working on Network Intrusion Detection and Prevention
+			</td>
+		</tr>
 	</table>
+	</br>
 
 </body>
 

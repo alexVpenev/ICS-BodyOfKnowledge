@@ -70,12 +70,12 @@
 
           <li class="subsection2"><a href="#">Network: Attack the Network</a></li>
           <li class="subsubsection2"><a href="src/pages/vpn-secure-remote-access-management.php">VPN: How to manage a Web Shop with Secure Remote Access and Management by VPN</a></li>
-          <li class="subsubsection2"><a href="src/pages/sniffing-spoofing.php">--- Network Spoofing and Man in The Middle Attacks(MITM)</a></li>
+          <li class="subsubsection2"><a href="src/pages/sniffing-spoofing.php">Network Spoofing and Man in The Middle Attacks(MITM)</a></li>
 
 
           <li class="subsection2"><a href="#">Network: Monitor and Detect</a></li>
           <li class="subsubsection2"><a href="src/pages/wifi-hacking.php">WiFi Hacking</a></li>
-          <li class="subsubsection2"><a href="#">---- Network Inrusion Detection and Prevention(NIDS/IPS)</a></li>
+          <li class="subsubsection2"><a href="src/pages/nids.php">---- Network Intrusion Detection and Prevention(NIDS/IPS)</a></li>
 
 
 

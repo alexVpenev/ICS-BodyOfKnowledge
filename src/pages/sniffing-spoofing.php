@@ -74,12 +74,101 @@
         <div class="subtheme">Exercises</div>
 
         <p>
-            To demonstrate how capturing packets works and data is transferred in general, here's a diagram I made from a project I did last semester:
+            To demonstrate how capturing packets works and data is transferred in general, here's a blueprint of how data is transferred
+            with packets going through different services I made from a project I did last semester:
         </p>
 
         <div class="image">
             <img src="../assets/sniffing/1-exercise.png" alt="intro">
         </div>
+
+        <p>
+            Now here are some examples of packet sniffing:
+        </p>
+
+        <div class="image">
+            <img src="../assets/sniffing/sniff-juice-login.png" alt="vpn">
+        </div>
+
+
+        <div class="image">
+            <img src="../assets/sniffing/sniff-juiceshop-captured-login.png" alt="vpn">
+            <a><i>This is how the POST request authorization packet looks like. The JuiceShop has no traffic encryption, so we can see his credentials for this login request.
+                </i></a>
+        </div>
+
+
+        <div class="image">
+            <img src="../assets/sniffing/sniff-abv-login.png" alt="vpn">
+        </div>
+
+        <div class="image">
+            <img src="../assets/sniffing/sniff-abv-encrypted.png" alt="vpn">
+            <a><i>Now this is a website with proper encryption. As you can see even if we capture the login request, it will be very hard to find the credentials.
+                </i></a>
+        </div>
+
+
+        <div class="subtheme">Now here's a practical example of arp spoofing:</div>
+
+        <div class="image">
+            <img src="../assets/sniffing/arp-ettercap.png" alt="vpn">
+            </br><a><i>First we start a specialised application for man in the middle attacks called Ettercap.
+                </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/sniffing/arp-scan-for-hosts-option.png" alt="vpn">
+            </br><a><i>Next step is scanning for hosts using the application options.
+                </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/sniffing/arp-tartget-2.png" alt="vpn">
+            <a><i>At the time, my kali machine was on the vSphere dhcp server, so I got a list of every running vm on the network.
+                </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/sniffing/arp-targets-setup.png" alt="vpn">
+            <a><i>I found my ubuntu vm which was running on .59, and set up ettercap as man in the middle between the gateway (.1) and the ubuntu vm (.59).
+                </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/sniffing/arp-poison-targets.png" alt="vpn">
+            </br><a><i>After setting up my targets, I used the ARP poisoning tool inside ettercap.
+                </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/sniffing/arp-ubuntu-vuln-website-request.png" alt="vpn">
+            <a><i>After I got the ARP poisoning setup, I tested logging in on an unencrypted website on the ubuntu machine.
+                </i></a>
+        </div>
+
+        <div class="image">
+            <img src="../assets/sniffing/arp-captured-packets-credentials.png" alt="vpn">
+            <a><i>As you can see I managed to capture the login POST requests sent by the ubuntu machine.
+                </i></a>
+        </div>
+
+
+
+
+        <div class="subtheme">Afterthoughts</div>
+
+        <p>
+            I have covered packet capturing multiple times in the previous topics, mainly for the application security topic while using BurpSuite, since
+            the app requires intercepting packets and modifying them. Sniffing was essentially an extension of that, but instead of capturing your own packets,
+            you capture other people's packets on a network, which is a very powerfull tool in espionage. Spoofing was something that I have never tried before.
+            I am stunned by how easy it was to ARP poison packets between hosts. It really showed me how if your not on a network you trust you can't be safe.
+            I will keep looking into spoofing even after finishing this topic and will research ways of how to protect networks against it. Also encryption is very
+            important!!
+        </p>
+
+
+
 
 
 </body>
