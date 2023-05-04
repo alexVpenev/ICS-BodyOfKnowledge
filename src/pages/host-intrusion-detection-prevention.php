@@ -37,13 +37,11 @@
             intrusion detection systems (HIDS).
             </br></br>
             Typically, any detected suspicious activity or policy violation is typically reported either to an administrator or collected centrally
-            using a security information and event management
-            </br></br>
-            Links to an external site. (SIEM) system. A SIEM system combines outputs from multiple sources, and uses alarm filtering techniques
+            using a security information and event management. A SIEM system combines outputs from multiple sources, and uses alarm filtering techniques
             to distinguish malicious activity from false alarms.
             </br></br>
             Some IDS have the ability to respond to detected intrusions and block evil traffic or users. Systems with such response capabilities
-            are typically referred to as an intrusion prevention system. NIDS and IPS are explained in a separate item.
+            are typically referred to as an intrusion prevention system. 
         </p>
 
         <div class="subtheme">Host Intrusion Detection and Prevention</div>

@@ -51,21 +51,22 @@
           <li class="subsection2"><a href="#">Network: Identification of Vulnerabilities</a></li>
           <li class="subsubsection2"><a href="../pages/network-scanning-enumeration-sniffing.php">Network Scanning and Enumeration (incl. Sniffing)</a></li>
           <li class="subsubsection2"><a href="../pages/howto-securely-host-with-secure-network-connections.php">How to securely host a website with Secure Network Connections (HTTPS/TLS/SSH)</a></li>
+          <li class="subsubsection2"><a href="../pages/law-ethics-responsible-disclosure-gdpr.php">Law & Ethics and Responsible Disclosure + GDPR</a></li>
 
           
           <li class="subsection2"><a href="#">Network: Protect the Network</a></li>
-          <li class="subsubsection2"><a href="../pages/law-ethics-responsible-disclosure-gdpr.php">Law & Ethics and Responsible Disclosure + GDPR</a></li>
           <li class="subsubsection2"><a href="../pages/network-separation-segmentation.php">Network Separation and Segmentation</a></li>
+          <li class="subsubsection2"><a href="../pages/vpn-secure-remote-access-management.php">VPN: How to manage a Web Shop with Secure Remote Access and Management by VPN</a></li>
 
           
           <li class="subsection2"><a href="#">Network: Attack the Network</a></li>
-          <li class="subsubsection2"><a href="../pages/vpn-secure-remote-access-management.php">VPN: How to manage a Web Shop with Secure Remote Access and Management by VPN</a></li>
           <li class="subsubsection2"><a href="../pages/sniffing-spoofing.php">Network Spoofing and Man in The Middle Attacks(MITM)</a></li>
+          <li class="subsubsection2"><a href="../pages/wifi-hacking.php">WiFi Hacking</a></li>
 
           
           <li class="subsection2"><a href="#">Network: Monitor and Detect</a></li>
-          <li class="subsubsection2"><a href="../pages/wifi-hacking.php">WiFi Hacking</a></li>
-          <li class="subsubsection2"><a href="../pages/nids.php">---- Network Intrusion Detection and Prevention(NIDS/IPS)</a></li>
+          <li class="subsubsection2"><a href="../pages/nids.php">Network Intrusion Detection and Prevention(NIDS/IPS)</a></li>
+          <li class="subsubsection2"><a href="#">---- IT Basic Monitoring (availability) + IT Security Monitoring (integrity and confidentiality)</a></li>
 
 
 
@@ -77,11 +78,10 @@
           <li class="section3"><a href="#">Security Concepts</a></li>
 
           <li class="subsection3"><a href="#">Concepts: IAM</a></li>
-          <li class="subsubsection3"><a href="#">---- IT Basic Monitoring (availability) + IT Security Monitoring (integrity and confidentiality)</a></li>
           <li class="subsubsection3"><a href="#">---- Identity Management, Authentication and Access Control</a></li>
+          <li class="subsubsection3"><a href="#">---- Password Cracking (system and network)</a></li>
 
           <li class="subsection3"><a href="#">Concepts: Incident Response and Analysis</a></li>
-          <li class="subsubsection3"><a href="#">---- Password Cracking (system and network)</a></li>
           <li class="subsubsection3"><a href="#">---- Security Incident Management</a></li>
           <li class="subsubsection3"><a href="#">---- IT System Hardening + Common Vulnerabilities and Exposures (CVE's)</a></li>
 

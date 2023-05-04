@@ -134,7 +134,7 @@
 		</tr>
 		<tr>
 			<td>1.6</td>
-			<td>02.04.2023</td>
+			<td>02.05.2023</td>
 			<td>Finished Sniffing and Spoofing
 			</td>
 		</tr>
@@ -145,8 +145,14 @@
 		</tr>
 		<tr>
 			<td>1.7</td>
-			<td>03.04.2023</td>
-			<td>Working on Network Intrusion Detection and Prevention
+			<td>05.05.2023</td>
+			<td>Finished Network Intrusion Detection and Prevention
+			</td>
+		</tr>
+		<tr>
+			<td>1.8</td>
+			<td>05.05.2023</td>
+			<td>Working on monitoring
 			</td>
 		</tr>
 	</table>
