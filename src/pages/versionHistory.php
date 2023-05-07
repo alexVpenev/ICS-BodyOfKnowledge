@@ -117,7 +117,7 @@
 		</tr>
 		<tr>
 			<td>1.4</td>
-			<td>30.04.2023</td>
+			<td>05.04.2023</td>
 			<td>Finished VPN: secure-remote-connection
 			</td>
 		</tr>
@@ -128,13 +128,13 @@
 		</tr>
 		<tr>
 			<td>1.5</td>
-			<td>30.04.2023</td>
+			<td>14.04.2023</td>
 			<td>Finished WiFi Hacking
 			</td>
 		</tr>
 		<tr>
 			<td>1.6</td>
-			<td>02.05.2023</td>
+			<td>15.04.2023</td>
 			<td>Finished Sniffing and Spoofing
 			</td>
 		</tr>
@@ -145,14 +145,54 @@
 		</tr>
 		<tr>
 			<td>1.7</td>
-			<td>05.05.2023</td>
+			<td>28.04.2023</td>
 			<td>Finished Network Intrusion Detection and Prevention
 			</td>
 		</tr>
 		<tr>
 			<td>1.8</td>
+			<td>30.04.2023</td>
+			<td>Finished IT Basic Monitoring + IT Security Monitoring
+			</td>
+		</tr>
+		<tr>
+			<th colspan="3">
+				Week 10
+			</th>
+		</tr>
+		<tr>
+			<td>2.0</td>
+			<td>02.05.2023</td>
+			<td>Finished Password Cracking
+			</td>
+		</tr>
+		<tr>
+			<td>2.1</td>
+			<td>03.05.2023</td>
+			<td>Finished Identity Management, Authentication and Access Control
+			</td>
+		</tr>
+		<tr>
+			<th colspan="3">
+				Week 11
+			</th>
+		</tr>
+		<tr>
+			<td>2.2</td>
+			<td>04.05.2023</td>
+			<td>Finished IT System Hardening
+			</td>
+		</tr>
+		<tr>
+			<td>2.3</td>
 			<td>05.05.2023</td>
-			<td>Working on monitoring
+			<td>Finished Common Vulnerabilities and Exposures (CVEs)
+			</td>
+		</tr>
+		<tr>
+			<td>2.4</td>
+			<td>05.05.2023</td>
+			<td>Finished Security Incident Management
 			</td>
 		</tr>
 	</table>

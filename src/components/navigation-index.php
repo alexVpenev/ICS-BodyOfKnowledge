@@ -76,7 +76,7 @@
 
           <li class="subsection2"><a href="#">Network: Monitor and Detect</a></li>
           <li class="subsubsection2"><a href="src/pages/nids.php">Network Intrusion Detection and Prevention(NIDS/IPS)</a></li>
-          <li class="subsubsection2"><a href="#">---- IT Basic Monitoring (availability) + IT Security Monitoring (integrity and confidentiality)</a></li>
+          <li class="subsubsection2"><a href="src/pages/monitoring.php">IT Basic Monitoring (availability) + IT Security Monitoring (integrity and confidentiality)</a></li>
 
 
 
@@ -87,12 +87,15 @@
           <li class="section3"><a href="#">Security Concepts</a></li>
 
           <li class="subsection3"><a href="#">Concepts: IAM</a></li>
-          <li class="subsubsection3"><a href="#">---- Identity Management, Authentication and Access Control</a></li>
-          <li class="subsubsection3"><a href="#">---- Password Cracking (system and network)</a></li>
+          <li class="subsubsection3"><a href="src/pages/identity.php">Identity Management, Authentication and Access Control</a></li>
+          <li class="subsubsection3"><a href="src/pages/password-cracking.php">Password Cracking (system and network)</a></li>
 
           <li class="subsection3"><a href="#">Concepts: Incident Response and Analysis</a></li>
-          <li class="subsubsection3"><a href="#">---- Security Incident Management</a></li>
-          <li class="subsubsection3"><a href="#">---- IT System Hardening + Common Vulnerabilities and Exposures (CVE's)</a></li>
+          <li class="subsubsection3"><a href="src/pages/incident.php">Security Incident Management</a></li>
+          <li class="subsubsection3"><a href="src/pages/hardening-cve.php">IT System Hardening + Common Vulnerabilities and Exposures (CVE's)</a></li>
+
+          
+          <li class="common"><a href="src/pages/conclusion.php">Conclusion</a></li>
 
         </ul>
       </div>

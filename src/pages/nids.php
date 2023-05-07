@@ -19,8 +19,8 @@
     <div class="container">
 
         <p>
-            In this topic I will cover Network Intrusion Detection and Prevention. In a previous topic I talked about Host IDS/IPS in which I described its
-            basics, and the software which can be used to execute that type of functionality. So to start this topic I will bring back what I've written
+            In this topic I will cover Network Intrusion Detection and Prevention. In a previous topic I talked about <b><a href="../pages/host-intrusion-detection-prevention.php">Host Intrusion Detection and Prevention (HIDS)</a></b> in which I already described
+            the basics of IDS/IPS, and the software which can be used to execute that type of functionality. So to start this topic I will bring back what I've written
             and I will end with showing and explaining how I setup a Network IDS and IPS.
         </p>
 
@@ -150,7 +150,7 @@
 
         <div class="image">
             <img src="../assets/nids/7-tested-with-custom-rule.png" alt="nids">
-            <a><i>Here are some alerts I got while using a complete nmap port scan.
+            <a><i>Here are some alerts I got while doing an all port nmap scan.
                 </i></a>
         </div>
 

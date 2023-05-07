@@ -145,7 +145,7 @@
         <p>
             This topic is very broad and I was simply not able to understand everything about it. For someone to be able to crack any wifi router, they would have to know
             everything about routers, hardware and traffic and I was simply not able to cover it in this topic. On the plus side I got to practice hacking
-            real routers during the practical lecture I was given in university. I worked with classmates to crack and figure out how to crack wifi's in general and with
+            real routers during the practical lecture I was given at university. I worked with classmates to crack and figure out how to crack wifi's in general and with
             a little more practice I hope I will utilize the knowledge I learned for the pentest I will be doing at the end of this semester. Finally it opened my eyes
             on how easily old routers can be cracked, and the importance of strong passwords.
         </p>
